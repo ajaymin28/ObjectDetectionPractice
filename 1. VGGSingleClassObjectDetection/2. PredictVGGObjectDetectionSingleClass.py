@@ -15,7 +15,7 @@ TrainDataPath = os.path.join("Dataset", "train")
 
 TestImages = glob.glob(TestDataPath+ os.sep + "*.jpg")
 
-imagepath=TestImages[21]
+imagepath=TestImages[0]
 
 image = load_img(imagepath,
                  target_size=(224,224))
